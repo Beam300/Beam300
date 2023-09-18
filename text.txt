@@ -1,0 +1,41 @@
+
+
+                                    # For username
+
+                # elif user.lower() == "b":
+                
+                #     email = input("Enter your Email: ")
+                
+                #     query1 = ("SELECT email, username FROM customer_table WHERE email=%s")
+                #     val1 = (email,)
+                #     mycursor.execute(query1, val1)
+                #     detail = mycursor.fetchall()
+
+                #     if detail:
+                #         user_name = input("Enter your new username: ")
+                        
+                #         confirm_username = input("Confirm your new username: ")
+                #         query = 'UPDATE customer_table SET username = %s WHERE email = %s'
+                #         val =(confirm_username, email)
+                #         mycursor.execute(query,val)
+                #         mycon.commit()
+                    
+                #         print("Username change successfully.")
+                #         self.sign_in()
+                #         if user_name != confirm_username:
+                #             print("Username does not match!")
+                #             user_name = input("Enter your new username: ")
+                        
+                #             confirm_username = input("Confirm your new username: ")
+                #             query = 'UPDATE customer_table SET username = %s WHERE email = %s'
+                #             val =(confirm_username, email)
+                #             mycursor.execute(query,val)
+                #             mycon.commit()
+                            
+                #             print("Username change successfully.")
+                #             self.sign_in()
+
+
+                        
+                # elif user.lower() == "b":
+                #     self.sign_up()
